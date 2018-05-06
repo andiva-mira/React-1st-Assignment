@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+box-shadow: 0 0 10px rgba(0,0,0,.6);
+}
+
+.App-title {
+background: linear-gradient(to right, #d17a7a 20%,#480048 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: #942e48;
+font-family: 'Playfair Display', serif;
+font-size: 2em;
+text-transform: uppercase;
+margin: 0 auto;
+line-height: 80px;
+text-align: center;
+}
+
+.main {
+margin: 0 auto;
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+text-align: center;
+height: calc(100vh - 80px);
+}
+
+.user-card {
+align-self: center;
+border: 2px solid #fff;
+border-radius: 8px;
+padding: 30px 20px;
+height: 300px;
+width: 25%;
+background: #95a5a6;
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+ background: linear-gradient(135deg, #c04848 0%,#480048 100%);
+}
+
+.user-card input:active,
+.user-card input:focus {
+	box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+@media (max-width: 767px) {
+	.App-title {
+		line-height: initial;
+		padding: 20px 0;
+	}
+	.main {
+		flex-flow: column nowrap;
+		height: auto;
+		padding-top: 50px;
+	}
+
+	.user-card {
+		width: 60%;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+
+

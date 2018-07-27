@@ -1,7 +1,7 @@
 {
   "name": "firstApp",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://andiva-mira.github.io/React-test",
   "dependencies": {
     "react": "^16.3.2",
